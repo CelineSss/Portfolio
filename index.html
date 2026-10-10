@@ -9,18 +9,19 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">LYNN</div>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#work-experience">Work Experience</a>
             <a href="#projects">Projects</a>
         </div>
         <div class="social-links">
             <a href="https://github.com/CelineSss" class="github" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/zhen-lynn-siew-1071b1360/" class="linkedin" target="_blank">
+            <a href="https://www.linkedin.com/in/zhen-lynn-siew-364760356" class="linkedin" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://wa.me/60169149068?text=Hi%20Lynn!" class="whatsapp" target="_blank">
@@ -34,10 +35,11 @@
 
     <main id="about" class="hero-section">
         <div class="content-wrapper">
-            <h1 class="gradient-text">Hello, I'm</h1>
+            <h1 class="gradient-text">Software Engineering Student</h1>
             <h2 class="title" id="typing-text"></h2>
-            <p class="description">Motivated diploma student specializing in Software Engineering (ICT), 
-                seeking a 3-month internship (Sept–Nov 2025) to apply and grow my technical and problem-solving skills in a practical environment.</p>
+            <p class="description">Software Engineering student with hands-on experience supporting the full software development lifecycle, 
+                including backend development, database management, UAT, and user training sessions. 
+                Seeking an internship for January - April 2027.</p>
                 <a href="image/ICT(SE) Siew Zhen Lynn.pdf" class="resume-btn" target="_blank">
                     Resume <i class="fas fa-arrow-right"></i>
                 </a>
@@ -54,26 +56,43 @@
             </div>
             <div class="education-content">
                 <h2 class="education-title">Education</h2>
-                
+
                 <div class="university animate-delay-1">
-                    <h3 class="university-name">Asia Pacific University(APU)</h3>
-                    <p class="university-details">
-                        <span class="year">2023 - 2025</span>
-                        <span class="course">Diploma in ICT - Software Engineering</span>
-                    </p>                    
-                    <p class="university-description">
-                        CGPA: 3.55 (Sem 1 - 4)
+                    <h3 class="university-name">Asia Pacific University (APU)</h3>
+
+                    <p class="education-year">
+                        2026 - Present
                     </p>
+
+                    <p class="education-course">
+                        Bachelor of Science (Hons) in Software Engineering
+                    </p>
+
+                    <p class="university-description">
+                        GPA: 3.82/4.00 (Semester 1)
+                    </p>
+
+                    <a href="ProjectDocumentation/DegreeInerimTranscript.pdf" class="result-btn" target="_blank">
+                        View Degree Transcript
+                    </a>
                 </div>
 
                 <div class="university animate-delay-2">
-                    <h3 class="university-name">SMJK(C) YU HUA</h3>
-                    <p class="university-details">
-                        <span class="year">2022</span>
-                        <span class="course">Sijil Pelajaran Malaysia (SPM)</span>
-                    </p>  
-                    <a href="image/spmResult.jpg" class="result-btn" target="_blank">
-                        View SPM Result
+                    <p class="education-year">
+                        2023 – 2025
+                    </p>
+
+                    <p class="education-course">
+                        Diploma in Information and Communication Technology
+                        (Software Engineering)
+                    </p>
+
+                    <p class="university-description">
+                        GPA: 3.68/4.00
+                    </p>
+
+                    <a href="ProjectDocumentation/DiplomaInterimTranscript.pdf" class="result-btn" target="_blank">
+                        View Diploma Transcript
                     </a>
                 </div>
             </div>
@@ -83,113 +102,603 @@
     <script src="script.js"></script>
 
     <section id="skills" class="skills-section">
-        <h2 class="skills-title">Skills</h2>
-        <div class="skills-container">
-            <div class="skill-item" style="--i:0;">
-                <img src="image/css.png" alt="CSS">
-                <span>CSS</span>
+        <div class="skills-content">
+            <h2 class="skills-title">Skills</h2>
+
+            <!-- Group 1: Programming and Web -->
+            <div class="skill-category">
+                <h3 class="skill-category-title">
+                    Programming &amp; Web Development
+                </h3>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="image/php.png" alt="PHP logo">
+                        <span>PHP</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/java.png" alt="Java logo">
+                        <span>Java</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/python.jpeg" alt="Python logo">
+                        <span>Python</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/Rlogo.png" alt="R logo">
+                        <span>R</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/html.png" alt="HTML logo">
+                        <span>HTML5</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/CSS.png" alt="CSS logo" class="large-logo">
+                        <span>CSS3</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/js.png" alt="JavaScript logo" class="large-logo">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
             </div>
-            <div class="skill-item" style="--i:1;">
-                <img src="image/js.png" alt="JavaScript">
-                <span>JavaScript</span>
+
+            <!-- Group 2: Backend and Databases -->
+            <div class="skill-category">
+                <h3 class="skill-category-title">
+                    Backend &amp; Databases
+                </h3>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="image/MySQL.png" alt="MySQL logo">
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/SSMS.png" alt="SSMS logo">
+                        <span>Microsoft SQL Server</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/HeidiSQL_logo.png" alt="HeidiSQL logo">
+                        <span>HeidiSQL</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/rest_api.png" alt="REST API logo">
+                        <span>RESTful APIs</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/json.png" alt="JSON logo">
+                        <span>JSON</span>
+                    </div>
+                </div>
             </div>
-            <div class="skill-item" style="--i:2;">
-                <img src="image/powerpoint.png" alt="Microsoft PowerPoint">
-                <span>Microsoft PowerPoint</span>
+
+            <!-- Group 3: Tools and Methodologies -->
+            <div class="skill-category">
+                <h3 class="skill-category-title">
+                    Tools &amp; Methodologies
+                </h3>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="image/github.png" alt="GitHub logo">
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/Joget_logo.png" alt="Joget Workflow logo">
+                        <span>Joget Workflow</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/SDLC.png" alt="SDLC logo">
+                        <span>Software Development Life Cycle</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="image/UAT.jpeg" alt="User Acceptance Testing logo">
+                        <span>User Acceptance Testing</span>
+                    </div>
+                </div>
             </div>
-            <div class="skill-item" style="--i:3;">
-                <img src="image/excel.png" alt="Microsoft Excel">
-                <span>Microsoft Excel</span>
-            </div>
-            <div class="skill-item" style="--i:4;">
-                <img src="image/word.png" alt="Microsoft Word">
-                <span>Microsoft Word</span>
-            </div>
-            <div class="skill-item" style="--i:5;">
-                <img src="image/MySQL.png" alt="MySQL">
-                <span>MySQL</span>
-            </div>
-            <div class="skill-item" style="--i:6;">
-                <img src="image/SSMS.png" alt="SSMS">
-                <span>SSMS</span>
-            </div>
-            <div class="skill-item" style="--i:7;">
-                <img src="image/java.png" alt="Java">
-                <span>Java</span>
-            </div>
-            <div class="skill-item" style="--i:8;">
-                <img src="image/python.png" alt="Python">
-                <span>Python</span>
-            </div>
-            <div class="skill-item" style="--i:9;">
-                <img src="image/html.png" alt="HTML">
-                <span>HTML</span>
+
+            <!-- Group 4: Design and Documentation -->
+            <div class="skill-category">
+                <h3 class="skill-category-title">
+                    Design &amp; Documentation
+                </h3>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="image/figma.png" alt="Figma logo">
+                        <span>Figma</span>
+                    </div>
+                </div>
+
+                <div class="skill-tags">
+                    <span>UML Diagramming</span>
+                    <span>User Flows</span>
+                    <span>Prototyping</span>
+                    <span>Wireframing</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects-section">
-        <h2 class="projects-title">Projects</h2>
-        <div class="projects-container">
+    <section id="certificates" class="certificates-section">
+        <div class="certificates-content">
+            <h2 class="certificates-title">Certificates</h2>
+
+            <p class="certificates-intro">
+                Selected certifications, professional development courses, and
+                academic contributions supporting my software engineering journey.
+            </p>
+
+            <div class="certificates-grid">
+
+                <!-- Certificate 1 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-diagram-project"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        Agile Methodology
+                    </p>
+
+                    <h3 class="certificate-name">
+                        Scrum Fundamentals Certified
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Issued by SCRUMstudy
+                    </p>
+
+                    <a href="Cert/scrum.pdf"
+                    class="certificate-btn"
+                    target="_blank">
+                        View Certificate
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Certificate 2 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        Networking
+                    </p>
+
+                    <h3 class="certificate-name">
+                        CCNA: Introduction to Networks
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Cisco Networking Academy
+                    </p>
+
+                    <a href="Cert/ccna.pdf"
+                    class="certificate-btn"
+                    target="_blank">
+                        View Certificate
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Certificate 3 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-pen-ruler"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        UI/UX Design
+                    </p>
+
+                    <h3 class="certificate-name">
+                        Google UX Design Coursework
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Coursera | Google
+                    </p>
+
+                    <div class="certificate-links">
+                        <a href="Cert/Course1.pdf"
+                        class="certificate-btn"
+                        target="_blank">
+                            Course 1
+                        </a>
+
+                        <a href="Cert/Course2.pdf"
+                        class="certificate-btn"
+                        target="_blank">
+                            Course 2
+                        </a>
+
+                        <a href="Cert/Course4.pdf"
+                        class="certificate-btn"
+                        target="_blank">
+                            Course 4
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Certificate 4 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        Academic Contribution
+                    </p>
+
+                    <h3 class="certificate-name">
+                        Student Committee Member
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        FYP Showcase 2026
+                    </p>
+
+                    <a href="Cert/student_helper.pdf"
+                    class="certificate-btn"
+                    target="_blank">
+                        View Certificate
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Certificate 5 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        AI &amp; Education Technology
+                    </p>
+
+                    <h3 class="certificate-name">
+                        Gemini Academy Workshop 2026
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Google for Education
+                    </p>
+
+                    <a href="Cert/gemini_workshop.pdf"
+                    class="certificate-btn"
+                    target="_blank">
+                        View Certificate
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Certificate 6 -->
+                <article class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <p class="certificate-category">
+                        Digital Education
+                    </p>
+
+                    <h3 class="certificate-name">
+                        Google Certified Educator Level 1
+                    </h3>
+
+                    <p class="certificate-issuer">
+                        Google for Education
+                    </p>
+
+                    <a href="Cert/google_certified_educator_level1.pdf"
+                    class="certificate-btn"
+                    target="_blank">
+                        View Certificate
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="experience-content">
+            <h2 class="experience-title">Work Experience</h2>
+
+            <div class="company-header">
+                <div>
+                    <h3 class="company-name">LW TECH SDN. BHD.</h3>
+
+                    <p class="company-location">
+                        <i class="fas fa-location-dot"></i>
+                        Kuala Lumpur, Malaysia
+                    </p>
+                </div>
+            </div>
+
+            <!-- Work roles -->
+            <div class="experience-roles">
+                <div class="role-item">
+                    <h3 class="role-name">Part-Time Software Developer</h3>
+                    <span class="role-date">Mar 2026 – Present</span>
+                </div>
+
+                <div class="role-item">
+                    <h3 class="role-name">Software Developer Intern</h3>
+                    <span class="role-date">Sep 2025 – Feb 2026</span>
+                </div>
+            </div>
+
+            <div class="experience-subheading">
+                <span></span>
+                 Project Contributions
+            </div>
+
             <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="image/Project1.png" alt="Project 1">
+            <article class="experience-card">
+                <div class="experience-card-header">
+                    <div>
+                        <p class="project-label">Project</p>
+
+                        <h3 class="experience-role">
+                            Elevator &amp; Escalator Service System
+                        </h3>
+                    </div>
+
+                    <span class="experience-date">Apr 2026 – Present</span>
                 </div>
-                <h3 class="project-title">APU Hostel Management Fees Payment System</h3>
-                <p class="project-description"><strong>Java</strong> Programming Language</p>
-                <p class="project-description">Implemented the <strong>Login, Registration</strong>, and <strong>Manager</strong> functionalities.</p>
-                <div class="project-links">
-                    <a href="https://cloudmails-my.sharepoint.com/:w:/g/personal/tp076386_mail_apu_edu_my/ETIAO299sUVCklLlP6kzGHoByGVn9SIiWwHisnwa2zyL3w?e=NkkPgp" class="visit-btn" target="_blank">
-                        Project Documentation
-                    </a>
-                    <a href="https://github.com/CelineSss/OOP" class="visit-btn" target="_blank">
-                        Project Code <i class="fas fa-arrow-right"></i>
-                    </a>
+
+                <ul class="experience-list">
+                    <li>
+                        Engineered backend modules to manage customer data, site locations,
+                        elevator assets, and maintenance jobs.
+                    </li>
+
+                    <li>
+                        Developed automated technician dispatch and scheduling logic to
+                        optimise field-team resource allocation and service coverage.
+                    </li>
+
+                    <li>
+                        Digitised manual paper-based inspection reporting into a centralised
+                        system, enabling technicians to submit reports and improving record
+                        traceability for audit and review purposes.
+                    </li>
+                </ul>
+
+                <div class="experience-tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>Backend Development</span>
+                    <span>Scheduling Logic</span>
                 </div>
-            </div>
-    
+            </article>
+
             <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="image/Project2.png" alt="Project 2">
+            <article class="experience-card">
+                <div class="experience-card-header">
+                    <div>
+                        <p class="project-label">Project</p>
+
+                        <h3 class="experience-role">
+                            Construction Trading System
+                        </h3>
+                    </div>
+
+                    <span class="experience-date">Nov 2025 – Jul 2026</span>
                 </div>
-                <h3 class="project-title">Quizzing You English Quiz Web App</h3>
-                <p class="project-description">Responsive Web Design and Development</p>
-                <p class="project-description">
-                    A responsive quiz platform designed for students aged 7–12, featuring three user roles:
-                    <strong>students</strong> (take quizzes), <strong>teachers</strong> (create quizzes), and <strong>parents</strong> (view results).
-                    Quizzes cover Grades 1–6 and topics such as Grammar, Idioms, Verbs, and Vocabulary.
-                    Developed the frontend using <strong>HTML</strong>, <strong>CSS</strong>, and light <strong>JavaScript</strong>.
-                </p>
-                <div class="project-links">
-                    <a href="link-to-documentation-2" class="visit-btn" target="_blank">
-                        Project Documentation
-                    </a>
-                    <a href="https://github.com/CelineSss/RWDD" class="visit-btn" target="_blank">
-                        Project Code <i class="fas fa-arrow-right"></i>
-                    </a>
+
+                <ul class="experience-list">
+                    <li>
+                        Built backend procurement workflows for end-to-end purchasing
+                        operations, including vendor quotations, sales-order processing,
+                        goods receipt notes (GRN), and inventory movement tracking.
+                    </li>
+
+                    <li>
+                        Developed a multi-vendor competitive-bidding module enabling
+                        structured price comparisons and vendor evaluation for project
+                        tender line items.
+                    </li>
+
+                    <li>
+                        Executed User Acceptance Testing (UAT), documented test findings,
+                        and assisted user training sessions to support smooth client adoption.
+                    </li>
+                </ul>
+
+                <div class="experience-tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>Procurement Workflow</span>
+                    <span>UAT</span>
                 </div>
-            </div>
-    
+            </article>
+
             <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="image/Project3.jpeg" alt="Project 3">
+            <article class="experience-card">
+                <div class="experience-card-header">
+                    <div>
+                        <p class="project-label">Project</p>
+
+                        <h3 class="experience-role">
+                            Xameon Internal System
+                        </h3>
+                    </div>
+
+                    <span class="experience-date">Sep 2025 – Nov 2025</span>
                 </div>
-                <h3 class="project-title">KLCCC Business Management System</h3>
-                <p class="project-description"><strong>Python</strong> Programming Language</p>
-                <p class="project-description">Implement <strong>Customer Management</strong> functionalities, including purchase and repair/service orders, order modification, payment processing, order status inquiry, order cancellation, and report generation.</p>
-                <div class="project-links">
-                    <a href="file:///C:/Users/User/OneDrive%20-%20Asia%20Pacific%20University/Siew%20Zhen%20Lynn%20Portfolio/ProjectDocumentation/Python.pdf" class="visit-btn" target="_blank">
-                        Project Documentation
-                    </a>
-                    <a href="https://github.com/CelineSss/Python/tree/master" class="visit-btn" target="_blank">
-                        Project Code <i class="fas fa-arrow-right"></i>
-                    </a>
+
+                <ul class="experience-list">
+                    <li>
+                        Designed structured relational MySQL database schemas, establishing
+                        foreign-key constraints, table relationships, and optimised queries
+                        for core business transactions.
+                    </li>
+
+                    <li>
+                        Developed and documented RESTful JSON APIs for ERP/CRM modules,
+                        including quotation generation, sales invoicing, dispatch tracking,
+                        project task management, and customer-support ticketing.
+                    </li>
+                </ul>
+
+                <div class="experience-tags">
+                    <span>MySQL</span>
+                    <span>RESTful APIs</span>
+                    <span>JSON</span>
+                    <span>ERP/CRM</span>
                 </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="academic-projects-content">
+            <h2 class="projects-title">Academic Projects</h2>
+
+            <p class="projects-intro">
+                Selected university group projects demonstrating web development,
+                database design, object-oriented programming, system analysis,
+                and software testing.
+            </p>
+
+            <div class="academic-projects-grid">
+
+                <!-- Academic Project 1 -->
+                <article class="academic-project-card">
+                    <div class="academic-project-image">
+                        <img src="image/fitnessLogo.png" alt="RunTimeFitness system logo">
+                    </div>
+
+                    <div class="academic-project-body">
+                        <p class="academic-project-type">
+                            Capstone Project | Web Application
+                        </p>
+
+                        <h3 class="academic-project-title">RunTimeFitness</h3>
+
+                        <p class="academic-project-summary">
+                            A fitness management web application that supports
+                            personalised diet planning, workout tracking, nutrition
+                            journaling, progress monitoring, and administrative reporting.
+                        </p>
+
+                        <div class="contribution-box">
+                            <h4>My Contribution</h4>
+
+                            <ul>
+                                <li>
+                                    Developed the personalised diet-plan module,
+                                    collecting member details such as goals, activity
+                                    level, body details, and food budget to generate
+                                    tailored diet-plan content.
+                                </li>
+
+                                <li>
+                                    Produced the diet-plan Data Flow Diagram (DFD),
+                                    data dictionary, and program flowchart to document
+                                    the module’s processes and data requirements.
+                                </li>
+
+                                <li>
+                                    Contributed to system testing and validation as part
+                                    of the six-member project team.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>SDLC</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Academic Project 2 -->
+                <article class="academic-project-card">
+                    <div class="academic-project-image">
+                        <img src="image/automotive.png"
+                            alt="APU Automotive Service Center System logo">
+                    </div>
+
+                    <div class="academic-project-body">
+                        <p class="academic-project-type">
+                            Object-Oriented Development with Java | Desktop Application
+                        </p>
+
+                        <h3 class="academic-project-title">
+                            APU Automotive Service Center System
+                        </h3>
+
+                        <p class="academic-project-summary">
+                            A role-based automotive service-centre management system for
+                            customers, counter staff, technicians, and managers. The system
+                            supports appointments, payments, service status updates,
+                            feedback, user management, and reporting.
+                        </p>
+
+                        <div class="contribution-box">
+                            <h4>My Contribution</h4>
+
+                            <ul>
+                                <li>
+                                    Developed counter-staff appointment booking and viewing
+                                    functions, customer appointment viewing, and technician
+                                    appointment-status update functions.
+                                </li>
+
+                                <li>
+                                    Implemented manager reporting features for appointment,
+                                    revenue, service, payment-status, and technician
+                                    performance analysis.
+                                </li>
+
+                                <li>
+                                    Documented object-oriented concepts and contributed
+                                    appointment and reporting module explanations,
+                                    additional features, conclusion, testing, and project
+                                    presentation.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span>Java</span>
+                            <span>Java Swing</span>
+                            <span>Object-Oriented Programming</span>
+                            <span>File Handling</span>
+                            <span>UML</span>
+                            <span>System Testing</span>
+                        </div>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
 </body>
 </html>
+
